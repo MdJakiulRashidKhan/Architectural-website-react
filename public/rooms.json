@@ -1,0 +1,42 @@
+[
+  {
+    "image": "https://i.ibb.co.com/2dyr6nt/Rectangle-4777.png",
+    "name": "Deluxe Double Room",
+    "size": "500 Sqft",
+    "guests": "3-4 Guests",
+    "features": ["Free WiFi"],
+    "price": "$62.00"
+  },
+  {
+    "image": "https://i.ibb.co.com/FJXt6qp/Rectangle-4780.png",
+    "name": "Deluxe Double Room",
+    "size": "500 Sqft",
+    "guests": "3-4 Guests",
+    "features": ["Free WiFi"],
+    "price": "$60.00"
+  },
+  {
+    "image": "https://i.ibb.co.com/WfG7tZ2/Rectangle-4782.jpg",
+    "name": "Hill View Suite",
+    "size": "500 Sqft",
+    "guests": "3-4 Guests",
+    "features": ["Free WiFi"],
+    "price": "$62.00"
+  },
+  {
+    "image": "https://i.ibb.co.com/tmM5CkK/Rectangle-4783.png",
+    "name": "Hill View Suite",
+    "size": "500 Sqft",
+    "guests": "3-4 Guests",
+    "features": ["Free WiFi"],
+    "price": "$62.00"
+  },
+  {
+    "image": "https://i.ibb.co.com/jhcNkXK/Rectangle-4784.png",
+    "name": "Hill View Suite",
+    "size": "400 Sqft",
+    "guests": "2 Guests",
+    "features": ["Free WiFi"],
+    "price": "$62.00"
+  }
+]
