@@ -1,4 +1,7 @@
 import React from "react";
+import top from "../../public/images/Ellipse 2061.png";
+import bottom from "../../public/images/Ellipse 2062.png";
+import bannerimg from "../../public/images/Frame 4887.png";
 
 const Banner = () => {
   return (
@@ -7,18 +10,18 @@ const Banner = () => {
         <div className="hero-content flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between">
           <div className="relative">
             <img
-              src="../../public/images/Frame 4887.png"
+              src={bannerimg}
               className="w-full h-[900px] rounded-lg shadow-2xl"
               alt="Main Visual"
             />
             <img
               className="absolute -top-12 -left-12 rounded-full hidden lg:block"
-              src="../../public/images/Ellipse 2061.png"
+              src={top}
               alt="Decorative Circle"
             />
             <img
               className="absolute top-72 -right-16 rounded-full hidden lg:block"
-              src="../../public/images/Ellipse 2062.png"
+              src={bottom}
               alt="Decorative Circle"
             />
           </div>
@@ -45,10 +48,53 @@ const Banner = () => {
               </a>
               <div className="flex items-center space-x-3">
                 <img
-                  className="rounded-full w-12 md:w-16"
-                  src="../../public/images/Ellipse 2061.png"
+                  className="rounded-full w-12 md:w-16 relative  inline-block"
+                  src={top}
                   alt="Story Thumbnail"
                 />
+                <svg
+                  className="absolute  transform translate-x-2  translate-y-1"
+                  width="24.000000"
+                  height="24.000000"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs>
+                    <clipPath id="clip329_228">
+                      <rect
+                        id="Frame"
+                        rx="0.000000"
+                        width="23.000000"
+                        height="23.000000"
+                        transform="translate(0.500000 0.500000)"
+                        fill="white"
+                        fillOpacity="0"
+                      />
+                    </clipPath>
+                  </defs>
+                  <rect
+                    id="Frame"
+                    rx="0.000000"
+                    width="23.000000"
+                    height="23.000000"
+                    transform="translate(0.500000 0.500000)"
+                    fill="#FFFFFF"
+                    fillOpacity="0"
+                  />
+                  <g clipPath="url(#clip329_228)">
+                    <path
+                      id="Vector"
+                      d="M4.5 5.65C4.5 4.22 6.02 3.32 7.27 4.01L18.81 10.35C20.11 11.06 20.11 12.93 18.81 13.64L7.28 19.99C6.03 20.67 4.5 19.77 4.5 18.34L4.5 5.65Z"
+                      fill="#FFFFFF"
+                      fillOpacity="1.000000"
+                      fillRule="evenodd"
+                    />
+                  </g>
+                </svg>
+
                 <p className="font-semibold">Watch Our Story</p>
               </div>
             </div>

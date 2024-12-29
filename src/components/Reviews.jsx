@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaStar } from "react-icons/fa"; // Importing the star icon from react-icons
+import { FaStar } from "react-icons/fa";
+import review from "../../public/images/Rectangle 952.png";
 
 const Reviews = () => {
   const sliderData = [
@@ -94,7 +95,7 @@ const Reviews = () => {
           <div className="flex justify-center items-center space-x-3">
             <img
               className="w-24 h-24 rounded-full object-cover"
-              src="../../public/images/Rectangle 952.png"
+              src={review}
               alt={`${slides[currentSlide].name}'s photo`}
             />
             <div className="text-center">
