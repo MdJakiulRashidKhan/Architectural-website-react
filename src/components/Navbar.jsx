@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../public/images/logo.png";
 
 const Navbar = () => {
   return (
@@ -42,11 +43,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <img
-          className="w-32 md:w-40"
-          src="../../public/images/logo.png"
-          alt="Logo"
-        />
+        <img className="w-32 md:w-40" src={logo} alt="Logo" />
       </div>
 
       <div className="navbar-center hidden lg:flex">

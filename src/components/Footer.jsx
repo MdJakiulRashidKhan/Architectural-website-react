@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../public/images/logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="bg-[#EBEBEB]">
         <footer className="footer container mx-auto  text-base-content py-10 px-10">
           <nav>
-            <img src="../../public/images/logo.png" alt="" />
+            <img src={logo} alt="" />
             <h6 className="footer-title">Follow us on social media</h6>
             <div className="grid grid-flow-col gap-4">
               <a className="bg-[#CEAF83] rounded-full p-2">
